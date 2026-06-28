@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Reflection Agent Pattern — Live Demo</title>
+<link rel="stylesheet" href="styles.css"/></head><body><main class="shell">
+<p class="tag">Production Agent Patterns · 2/5</p><h1>Reflection Agent Pattern</h1>
+<p class="lede">Draft → critique → improve → finalize with quality gates.</p>
+<section class="panel"><button id="run" type="button">Run reflection demo</button>
+<div id="answer" class="answer"></div><div id="trace" class="trace"></div></section></main>
+<script>
+const DEMO={answer:"Agents audit traces before they ship artifacts.",events:[
+{name:"draft.created",payload:{text:"Agents ship fast without review."}},
+{name:"critic.review",payload:{score:62,findings:["Missing governance hook","No citation trace"]}},
+{name:"draft.revised",payload:{text:"Agents audit traces before they ship artifacts."}},
+{name:"quality.gate",payload:{score:91,decision:"pass"}}]};
+const trace=document.getElementById("trace");
+document.getElementById("run").onclick=async()=>{trace.innerHTML="";document.getElementById("answer").textContent="";
+for(const e of DEMO.events){const el=document.createElement("div");el.className="event live";
+el.innerHTML=`<strong>${e.name}</strong><pre>${JSON.stringify(e.payload,null,2)}</pre>`;trace.appendChild(el);
+await new Promise(r=>setTimeout(r,700));el.classList.remove("live");el.classList.add("done");}
+document.getElementById("answer").textContent=DEMO.answer;};
+</script></body></html>
