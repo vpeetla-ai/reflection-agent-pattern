@@ -1,7 +1,22 @@
 # Reflection Agent Pattern
 
+**Part 2 of 5 — critique-and-revise before delivery.** Used in **VAP Research + Architecture**.
 
-## Agent skills (Cursor + Codex)
+[▶ Live demo](https://reflection-agent-pattern.vercel.app) · [Architecture](docs/ARCHITECTURE.md) · [Portfolio](https://venkat-ai.com/work) · [VAP case study](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/case-studies/venkat-ai-platform.md)
+
+## What this is
+
+Self-critique loops improve draft quality before ship — bounded reflection with trace viewer for teaching.
+
+## How we solve it
+
+Critic agent revises generator output with stop conditions and structured traces — composable into VAP pipelines.
+
+## Case study & tradeoffs
+
+[venkat-ai.com/work](https://venkat-ai.com/work) · [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+
+---
 
 Org skills: [vpeetla-ai-skills](https://github.com/vpeetla-ai/vpeetla-ai-skills). This repo includes `.cursor/skills/`, `AGENTS.md`, and `CONTEXT.md`.
 
