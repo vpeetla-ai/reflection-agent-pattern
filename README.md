@@ -110,6 +110,17 @@ docs/ARCHITECTURE.md
 tests/test_reflection.py
 ```
 
+## Interview map
+
+**Business function:** Minimal LangGraph teaching stub for one agent pattern (compose into VAP for production).
+
+Staff+ prep crosswalk — [playbook](https://github.com/vpeetla-ai/ai-architect-interview-playbook) · [study UI](https://ai-architect-interview-playbook-9xs.vercel.app) · [Practice Arena](https://ai-architect-practice-arena.vercel.app) · [org matrix](https://github.com/vpeetla-ai/ai-architecture-portfolio/blob/main/docs/REPO_INTERVIEW_MAP.md). Only entries this repo honestly exercises.
+
+| Category | Entry | Fit |
+|----------|-------|-----|
+| System design | [Agent tool-use / orchestration](https://ai-architect-interview-playbook-9xs.vercel.app/q/ai-system-design/03-agent-tool-use-orchestration-platform) ([md](https://github.com/vpeetla-ai/ai-architect-interview-playbook/blob/main/ai-system-design/03-agent-tool-use-orchestration-platform.md)) | Pattern slice only — not a full platform |
+| Coding | [Clone a graph (cycle-safe)](https://ai-architect-interview-playbook-9xs.vercel.app/q/coding/07-graph-clone-and-cycle-safe) ([md](https://github.com/vpeetla-ai/ai-architect-interview-playbook/blob/main/coding/07-graph-clone-and-cycle-safe.md)) | Light — graph structure intuition for LangGraph |
+
 ## Related
 
 - **Previous:** [ReAct Agent Pattern](https://github.com/vpeetla-ai/react-agent-pattern)
