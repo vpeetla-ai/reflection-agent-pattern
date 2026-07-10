@@ -32,6 +32,8 @@ git clone https://github.com/vpeetla-ai/vpeetla-ai-skills.git
 ---
 
 
+> **Scope:** Curriculum stub with deterministic tests and a live trace viewer — not a production agent fleet. Compose into [Venkat AI Platform](https://github.com/vpeetla-ai/venkat-ai-platform) for governed graphs.
+
 ## Implementation status
 
 | Component | Status | Notes |
@@ -45,12 +47,12 @@ git clone https://github.com/vpeetla-ai/vpeetla-ai-skills.git
 
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://reflection-agent-pattern.vercel.app)
-[![Part of Production Agent Patterns](https://img.shields.io/badge/series-Production%20Agent%20Patterns-purple)](https://github.com/vpeetla-ai/reflection-agent-pattern)
+[![Part of Curriculum Agent Patterns](https://img.shields.io/badge/series-Curriculum%20Agent%20Patterns-purple)](https://github.com/vpeetla-ai/reflection-agent-pattern)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Part 2 of 5** in the [Production Agent Patterns](https://github.com/vpeetla-ai/react-agent-pattern) series.
+**Part 2 of 5** in the [Curriculum Agent Patterns](https://github.com/vpeetla-ai/react-agent-pattern) series.
 
-Production-grade reference implementation of the **Reflection** pattern for accuracy-critical generation, code review, content validation, and complex reasoning workflows.
+Curriculum teaching stub (compose into VAP for production graphs) of the **Reflection** pattern for accuracy-critical generation, code review, content validation, and complex reasoning workflows.
 
 | # | Pattern | Repository | Use when |
 |---|---------|------------|----------|
