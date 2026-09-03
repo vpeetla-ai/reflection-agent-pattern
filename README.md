@@ -44,6 +44,7 @@ git clone https://github.com/vpeetla-ai/vpeetla-ai-skills.git
 | MCP tool bridge | ❌ | See LoopForge / VAP MCP docs |
 | AegisAI gateway | ❌ | No side effects in pattern demo |
 | Pytest regression | ✅ | `pytest -q` in repo |
+| Reflection critique-delta benchmark | ✅ | Real, executed (deterministic stubs, no API key): 11 tasks through the actual `ReflectionAgent` loop, first-draft vs post-reflection score from the same critic — mean Δ score **+0.2673**, **72.7%** of tasks improved, **81.8%** approved within the revision budget (2 adversarial tasks honestly exhaust it). See [docs/receipts/benchmark.md](docs/receipts/benchmark.md); gated in CI against [golden-eval-registry](https://github.com/vpeetla-ai/golden-eval-registry)'s `reflection_agent.critique_delta_v1` suite. |
 
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://reflection-agent-pattern.vercel.app)
